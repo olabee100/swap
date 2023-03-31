@@ -63,9 +63,9 @@ const Footer = () => {
             <BsLinkedin className="text-[white] w-8 h-8" />
           </div>
         </div>
-        <p className="text-2xl font-bold italic mb-16 text-center flex justify-center items-center absolute mx-auto -bottom-1 left-0 right-0 ">
+        {/* <p className="text-2xl font-bold italic mb-16 text-center flex justify-center items-center absolute mx-auto -bottom-1 left-0 right-0 ">
         © Copyright2023. All rights reserved, SwapSpace.com
-        </p>
+        </p> */}
       </div>
     </footer>
   );
