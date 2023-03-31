@@ -1,0 +1,196 @@
+* {
+  @apply box-border m-0 p-0;
+}
+.top-section {
+  @apply h-[105vh];
+  background: linear-gradient(152.62deg, #6b94a9 13.62%, #cfd0d0 82.94%),
+    radial-gradient(50% 232.13% at 50% 50%, #cfd0d0 0%, #000000 100%);
+}
+.body-top {
+  @apply flex justify-center items-center pt-[20vh] w-[100%];
+}
+.top-text {
+  @apply w-[55%] ml-16;
+}
+.top-text h1 {
+  @apply not-italic font-black text-[40px] leading-[48px] tracking-[-0.0025em] text-black;
+  font-family: "Lato";
+}
+.top-text p {
+  @apply not-italic font-medium text-xl leading-6 tracking-[-0.0025em] text-black pt-[1.8rem];
+  font-family: "Lato";
+}
+.phone-img {
+  @apply w-[45%] h-full;
+}
+.image-container {
+  @apply relative w-full h-[500px] overflow-hidden flex justify-center items-center;
+}
+.image {
+  @apply absolute w-full h-full opacity-100 animate-[imageAnimation_2s_infinite_10s];
+}
+.image-container .left {
+  @apply ml-8 mt-[2.4rem];
+}
+.image-container .right {
+  @apply ml-[10.5rem] mt-[2.55rem];
+}
+.image:nth-child(1) {
+  animation-delay: 0s;
+  animation-duration: 0s;
+}
+.image:nth-child(2) {
+  animation-delay: -4s;
+  animation-duration: 6s;
+}
+.image:nth-child(3) {
+  animation-delay: -8s;
+  animation-duration: 6s;
+}
+@keyframes imageAnimation {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.span-green {
+  @apply text-[#05a3a3];
+}
+.midsec1 {
+  @apply flex justify-center items-center h-[78vh];
+  background: #e0e0e0;
+}
+.home-img {
+  @apply w-6/12 flex justify-center items-center;
+}
+.sec1-text {
+  @apply w-6/12 mt-[9rem];
+}
+.sec1-text p {
+  @apply not-italic font-medium text-xl leading-6 w-4/5 text-justify tracking-[-0.0025em] pb-8;
+  font-family: "Lato";
+}
+.sec1-text h2 {
+  @apply not-italic font-black text-[32px] leading-5 pb-4;
+  font-family: "Lato";
+}
+.midsec2 {
+  @apply h-[115vh] bg-cover bg-no-repeat flex flex-col;
+  background: url(../../public/images/sect2background.png);
+}
+.midsec2 h2 {
+  @apply not-italic font-black text-[32px] text-white text-center gap-8 tracking-[-0.0025em] mt-12;
+  font-family: "Lato";
+}
+.midsec2 p {
+  @apply not-italic font-normal text-[15px] leading-[1.3rem] text-center tracking-[-0.0025em] text-white mt-12;
+  font-family: "Lato";
+}
+.offer-cont {
+  @apply flex flex-row justify-around w-full h-[70vh] mt-12;
+}
+.span-spec {
+  @apply bg-white text-[#05a3a3] pr-[0.2px];
+}
+.offer {
+  @apply w-3/12 flex justify-center items-center flex-col h-[70vh] text-center rounded-[15px];
+  background: #ffffff;
+}
+.offer h3 {
+  @apply mt-[1.3rem];
+}
+.offer p {
+  @apply text-black w-4/5;
+}
+.midsec3 {
+  @apply h-[90vh] flex flex-row;
+  background: #e0e0e0;
+}
+.midsec3 .swipe-text {
+  @apply w-6/12 ml-20 mt-20;
+}
+.midsec3 .swipe-text h2 {
+  @apply not-italic font-black text-[40px] leading-[77px] text-[#05a3a3];
+  font-family: "Lato";
+}
+.play-img {
+  @apply w-[56%] flex justify-between pt-8;
+}
+.midsec3 .swipe-text p {
+  @apply not-italic font-medium text-lg leading-[22px] tracking-[-0.0025em] text-[#424a52];
+  font-family: "Lato";
+}
+.midsec3 .swipe-img {
+  @apply w-6/12 flex justify-center items-center mt-8;
+}
+.midsec4 {
+  @apply h-[90vh] flex flex-col items-center;
+  background: #d9d9d9;
+}
+.midsec4 h2 {
+  @apply text-[#05a3a3] font-black text-[32px] leading-5 tracking-[-0.0025em] mt-12;
+}
+.midsec4-cont {
+  @apply flex w-[90%] justify-center items-center mt-16;
+}
+.midsec4-text {
+  @apply w-6/12 flex flex-col;
+}
+.midsec4-text h2 {
+  @apply w-4/5 text-[#a30547] font-black text-[32px] leading-5 mb-8;
+}
+.midsec4-text p {
+  @apply w-4/5 font-normal text-xl leading-6 tracking-[-0.0025em] text-[#424a52];
+  /* Color/Secondary */
+}
+.midsec4-img {
+  @apply w-6/12 flex justify-center items-center;
+}
+.span-spec2 {
+  @apply text-white;
+  background: #05a3a3;
+}
+.midsec5 {
+  @apply h-[80vh];
+  background: #000000;
+}
+.midsec5 h2 {
+  @apply font-black text-[32px] leading-5 text-center tracking-[-0.0025em] text-[#05a3a3] pt-12;
+}
+.midsec5-body {
+  @apply h-[50vh] bg-[100%_100%] bg-no-repeat bg-[center_center] mt-[3.3rem];
+  background: url(../../public/images/hand.png);
+}
+.midsec5-text {
+  @apply float-right w-1/5 text-white h-[30vh] mr-20 mt-20;
+}
+.midsec5-text button {
+  @apply mt-4;
+}
+.midsec6 {
+  @apply h-[80vh] flex justify-center items-center;
+  background: #b7bcca;
+}
+.midsec6-text {
+  @apply w-6/12 flex justify-center flex-col items-center h-full;
+}
+.midsec6-cont {
+  @apply w-[55%] h-3/5;
+}
+.midsec6-text h2 {
+  @apply font-black text-[32px] leading-[38px] tracking-wider text-[#05a3a3] mb-12;
+}
+.midsec6-text p {
+  @apply font-normal text-xl leading-6 tracking-[-0.0025em] text-justify text-black;
+}
+.midsec6-img {
+  @apply w-6/12 flex justify-center items-center;
+}

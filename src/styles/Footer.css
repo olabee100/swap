@@ -1,0 +1,47 @@
+.footer {
+  @apply h-[90vh];
+  background: linear-gradient(
+      105.73deg,
+      rgba(170, 184, 194, 0.215) 10.23%,
+      rgba(0, 0, 0, 0.5) 82.17%
+    ),
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(5, 163, 163, 0.2) 0%,
+      rgba(34, 102, 153, 0.2) 100%
+    ),
+    #424a52;
+}
+.footer-cont {
+  @apply w-full h-[85%] flex;
+}
+.footer-1 {
+  @apply flex flex-col justify-center items-center h-full w-[26%] mt-8;
+}
+.footer-1 .footer-img {
+  @apply mb-[0.8rem];
+}
+.footer-1 h3 {
+  @apply font-bold text-2xl leading-[29px] tracking-[-0.0025em] mb-20;
+}
+.footer-1 .footer-img2 {
+  @apply mb-6;
+}
+.footer-1 .footer-img3 {
+  @apply mb-16;
+}
+.footer-2 {
+  @apply w-[49%] h-full flex flex-col justify-center items-center text-white;
+}
+.footer-2h {
+  @apply w-4/5 h-4/5 flex justify-between leading-[4rem] text-center;
+}
+.footer-3 {
+  @apply w-3/12 h-full;
+}
+.socials {
+  @apply flex justify-between w-2/5 float-right mr-12 mt-16;
+}
+.copyright {
+  @apply w-full h-[15%] flex justify-center items-center text-white;
+}
