@@ -27,13 +27,13 @@
   @apply relative w-full h-[500px] overflow-hidden flex justify-center items-center;
 }
 .image {
-  @apply absolute w-full h-full opacity-100 animate-[imageAnimation_2s_infinite_10s];
+  @apply absolute w-full h-full flex justify-center items-center opacity-100 animate-[imageAnimation_2s_infinite_0s];
 }
 .image-container .left {
-  @apply ml-8 mt-[2.4rem];
+  @apply mr-32 h-[447px];
 }
 .image-container .right {
-  @apply ml-[10.5rem] mt-[2.55rem];
+  @apply ml-32 h-[447px];
 }
 .image:nth-child(1) {
   animation-delay: 0s;
@@ -47,39 +47,47 @@
   animation-delay: -8s;
   animation-duration: 6s;
 }
-@keyframes imageAnimation {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 .span-green {
   @apply text-[#05a3a3];
 }
 .midsec1 {
-  @apply flex justify-center items-center h-[78vh];
+  @apply flex justify-center items-center h-[80vh];
   background: #e0e0e0;
 }
 .home-img {
-  @apply w-6/12 flex justify-center items-center;
+  @apply w-6/12 h-full;
+}
+.home-container {
+  @apply relative overflow-hidden flex w-full h-full justify-center items-center;
+}
+.house-img {
+  @apply absolute opacity-100 animate-[imageAnimation_2s_infinite_0s];
+}
+.house-img:nth-child(1) {
+  animation-delay: 0s;
+  animation-duration: 0s;
+}
+.house-img:nth-child(2) {
+  animation-delay: -4s;
+  animation-duration: 15s;
+}
+.house-img:nth-child(3) {
+  animation-delay: -8s;
+  animation-duration: 15s;
+}
+.house-img:nth-child(4) {
+  animation-delay: -12s;
+  animation-duration: 15s;
 }
 .sec1-text {
-  @apply w-6/12 mt-[9rem];
+  @apply w-6/12 mt-12;
 }
 .sec1-text p {
   @apply not-italic font-medium text-xl leading-6 w-4/5 text-justify tracking-[-0.0025em] pb-8;
   font-family: "Lato";
 }
 .sec1-text h2 {
-  @apply not-italic font-black text-[32px] leading-5 pb-4;
+  @apply not-italic font-black text-[32px] leading-5 pb-8;
   font-family: "Lato";
 }
 .midsec2 {
@@ -87,7 +95,7 @@
   background: url(../../public/images/sect2background.png);
 }
 .midsec2 h2 {
-  @apply not-italic font-black text-[32px] text-white text-center gap-8 tracking-[-0.0025em] mt-12;
+  @apply not-italic font-black text-[32px] text-white text-center gap-8 tracking-[-0.0025em] mt-7;
   font-family: "Lato";
 }
 .midsec2 p {
@@ -111,7 +119,7 @@
   @apply text-black w-4/5;
 }
 .midsec3 {
-  @apply h-[90vh] flex flex-row;
+  @apply h-[100vh] flex flex-row;
   background: #e0e0e0;
 }
 .midsec3 .swipe-text {
@@ -129,17 +137,17 @@
   font-family: "Lato";
 }
 .midsec3 .swipe-img {
-  @apply w-6/12 flex justify-center items-center mt-8;
+  @apply w-6/12  flex justify-center items-center mt-8;
 }
 .midsec4 {
-  @apply h-[90vh] flex flex-col items-center;
+  @apply h-[95vh] flex flex-col items-center;
   background: #d9d9d9;
 }
 .midsec4 h2 {
   @apply text-[#05a3a3] font-black text-[32px] leading-5 tracking-[-0.0025em] mt-12;
 }
 .midsec4-cont {
-  @apply flex w-[90%] justify-center items-center mt-16;
+  @apply flex w-[90%] h-full justify-center items-center mt-16;
 }
 .midsec4-text {
   @apply w-6/12 flex flex-col;
@@ -153,6 +161,28 @@
 }
 .midsec4-img {
   @apply w-6/12 flex justify-center items-center;
+}
+.midsec4-main {
+  @apply relative overflow-hidden flex w-full h-full justify-center items-center;
+}
+.midsec4-animate {
+  @apply absolute w-full h-full opacity-0 animate-[imageAnimation_0s_infinite_0s] flex justify-center items-center;
+}
+.midsec4-animate:nth-child(1) {
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+.midsec4-animate:nth-child(2) {
+  animation-delay: -4s;
+  animation-duration: 15s;
+}
+.midsec4-animate:nth-child(3) {
+  animation-delay: -8s;
+  animation-duration: 15s;
+}
+.midsec4-animate:nth-child(4) {
+  animation-delay: -12s;
+  animation-duration: 15s;
 }
 .span-spec2 {
   @apply text-white;
@@ -168,6 +198,32 @@
 .midsec5-body {
   @apply h-[50vh] bg-[100%_100%] bg-no-repeat bg-[center_center] mt-[3.3rem];
   background: url(../../public/images/hand.png);
+}
+.midsec5-body2 {
+  @apply h-[50vh] bg-[100%_100%] bg-no-repeat bg-[center_center] mt-[3.3rem];
+  background: url(../../public/images/onlaptop.png);
+}
+.midsec5-body3 {
+  @apply h-[50vh] bg-[100%_100%] bg-no-repeat bg-[center_center] mt-[3.3rem];
+  background: url(../../public/images/storex.png);
+}
+.midsec5-main {
+  @apply relative overflow-hidden h-full;
+}
+.midsec5-cont {
+  @apply absolute opacity-100 w-full animate-[imageAnimation_2s_infinite_0s];
+}
+.midsec5-cont:nth-child(1) {
+  animation-delay: 0s;
+  animation-duration: 0s;
+}
+.midsec5-cont:nth-child(2) {
+  animation-delay: -4s;
+  animation-duration: 15s;
+}
+.midsec5-cont:nth-child(3) {
+  animation-delay: -8s;
+  animation-duration: 15s;
 }
 .midsec5-text {
   @apply float-right w-1/5 text-white h-[30vh] mr-20 mt-20;
@@ -193,4 +249,22 @@
 }
 .midsec6-img {
   @apply w-6/12 flex justify-center items-center;
+}
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

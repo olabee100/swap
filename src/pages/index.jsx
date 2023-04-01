@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 
 import phone from '../../public/images/phone.png'
@@ -12,6 +13,13 @@ import leftphone from '../../public/images/leftphone.png'
 import rightphone from '../../public/images/rightphone.png'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import bungalow from '../../public/images/bungalow.png'
+import twostorey from '../../public/images/twostorey.png'
+import mansion from '../../public/images/mansion.png'
+import firstphone from '../../public/images/firstphone.png'
+import laptop from '../../public/images//laptop.png'
+import book from '../../public/images/book.png'
+import together from '../../public/images/together.png'
 
 export default function Home() {
   return (
@@ -28,20 +36,35 @@ export default function Home() {
       <div className= "phone-img">
          <div className="image-container">
        <div className="image">
-         <Image src={phone} alt="me" width="600" height="500" classname="middle"/>
+         <Image src={firstphone} alt="me" width="238" height="447" classname="middle"/>
          </div>
          <div className="image">
-         <Image src={leftphone} alt="me" width="370" height="400" className="left"/>
+         <Image src={leftphone} alt="me" width="359" height="447" className="left"/>
         </div>
         <div className="image">
-          <Image src={rightphone} alt="me" width="355" height="400" className="right"/>
+          <Image src={rightphone} alt="me" width="359" height="447" className="right"/>
          </div>
           </div>
        </div>
        </div>
       </div>
        <div className="midsec1">
-          <div className="home-img"><Image src={home} alt="me" width="450" height="391" /></div>
+          <div className="home-img">
+          <div className="home-container">
+            <div className="house-img">
+            <Image src={home} alt="me" width="450" height="391" />
+            </div>
+            <div className="house-img">
+            <Image src={bungalow} alt="me" width="450" height="391" />
+            </div>
+            <div className="house-img">
+            <Image src={twostorey} alt="me" width="450" height="391" />
+            </div>
+            <div className="house-img">
+            <Image src={mansion} alt="me" width="450" height="391" />
+            </div>
+            </div>
+            </div>
           <div className="sec1-text" >
             <h2 className="span-green">Who we are</h2>
             <p>We are here to provide you with all the essentials you need to  make your dream home a reality.
@@ -97,6 +120,8 @@ export default function Home() {
         <div className="midsec4">
           <h2> <span className="span-spec2"> What you</span> stand to benefit</h2>
           <div className="midsec4-cont">
+          <div className="midsec4-main">
+          <div className="midsec4-animate">
           <div className="midsec4-img"><Image src={earpod} alt="me" width="520" height="350" /></div>
           <div className="midsec4-text">
             <h2>Virtual Tour & 3D Walk-Througs</h2>
@@ -105,9 +130,43 @@ export default function Home() {
                  visits and saving time.</p>
           </div>
           </div>
+          
+          
+          <div className="midsec4-animate">
+          <div className="midsec4-img"><Image src={laptop} alt="me" width="520" height="350" /></div>
+          <div className="midsec4-text">
+            <h2>Personalized Search Fliters</h2>
+            <p>Users can easily find properties that match their 
+specific preferences and requirements.</p>
+          </div>
+          </div>
+          
+          
+          <div className="midsec4-animate">
+          <div className="midsec4-img"><Image src={book} alt="me" width="520" height="350" /></div>
+          <div className="midsec4-text">
+            <h2>Online Contract Signing</h2>
+            <p>Allow users to explore properties from the comfort of 
+their own home, redo Streamline the buying and selling process by allowing users to sign contracts electronically,
+ reducing the need for in-person meetings and paper work, the need for in-person  visits and saving time.</p>
+          </div>
+          </div>
+          
+          <div className="midsec4-animate">
+          <div className="midsec4-img"><Image src={together} alt="me" width="520" height="350" /></div>
+          <div className="midsec4-text">
+            <h2>Trustworthy Partners</h2>
+            <p>Our vetted Partners and services will ensure a smooth 
+and trustworthy transaction.</p>
+          </div>
+          </div>
+          </div>
+          </div>
         </div>
         <div className="midsec5">
           <h2><span className="span-spec2"> Uncover The Value</span> by Connecting With Swap Space</h2>
+          <div className="midsec5-main">
+            <div className="midsec5-cont">
           <div className="midsec5-body">
             <div className="midsec5-text">
             <p>Swipe right to instantly connect with
@@ -115,6 +174,32 @@ export default function Home() {
                property, in the best location.</p>
                <button className = "download-btn">Download App now</button>
                </div>
+          </div>
+          </div>
+            <div className="midsec5-cont">
+          <div className="midsec5-body2">
+            <div className="midsec5-text">
+            <p>Acquire new leads quickly, manage 
+and strategies properties with your 
+team on-the- go while you connect 
+quickly with buyers and sellers in 
+one hand.</p>
+               <button className = "download-btn">Download App now</button>
+               </div>
+          </div>
+          </div>
+            <div className="midsec5-cont">
+          <div className="midsec5-body3">
+            <div className="midsec5-text">
+            <p>Have access to 10,000+ properties
+at your own comfort. Making buying
+or renting experience easier and 
+faster with trusted and reliable 
+agents around you</p>
+               <button className = "download-btn">Download App now</button>
+               </div>
+          </div>
+          </div>
           </div>
         </div>
       <div className="midsec6">
