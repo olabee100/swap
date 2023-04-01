@@ -21,10 +21,10 @@ const getstarted = () => {
       >
         <div className="flex lg:flex-row flex-col mx-auto justify-around w-11/12">
           <div className="lg:w-4/12 w-11/12 ">
-            <p className="text-[#05A3A3] text-2xl lg:text-left text-center">
+            <p className="text-[#05A3A3] lg:text-4xl text-2xl lg:text-left text-center">
               Home Matching With Ease
             </p>
-            <p className="lg:text-1xl text-1xl text-[white] mt-6 lg:text-left text-center">
+            <p className="lg:text-2xl text-1xl text-[white] mt-6 lg:text-left text-center">
               {" "}
               Get the home of your dreams easily with our top-rated swiping app
               on IOS and Andriod
@@ -53,10 +53,10 @@ const getstarted = () => {
           </div>
           <div className="lg:mt-0 mt-8 flex lg:w-4/12 w-11/12 justify-end items-end">
             <Image
-              src="/images/Frame1.png"
+              src="/images/swipephone.png"
               alt="image"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
             />
           </div>
         </div>
@@ -103,7 +103,7 @@ const getstarted = () => {
               className=" rounded-lg flex justify-end bg-[url('/images/phonebackground.png')] h-350 lg:h-[400px] w-9/12 bg-cover bg-center bg-no-repeat "
             >
               <Image
-                className="lg:mt-60 mt-12 lg:h-[300px] h-[350px]"
+                className="lg:mt-60 mt-12 lg:h-[700px] h-[350px]"
                 src="/images/phone.png"
                 alt="image"
                 width={300}
