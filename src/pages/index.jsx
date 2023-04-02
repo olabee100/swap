@@ -4,7 +4,7 @@ import Image from 'next/image'
 import phone from '../../public/images/phone.png'
 import home from '../../public/images/home.png'
 import offerimage from '../../public/images/offerimage.png'
-import phone2 from '../../public/images/phone2.png'
+import phonevideo from '../../public/images/phonevideo.gif'
 import Appstore from '../../public/images/Appstore.png'
 import googleplay from '../../public/images/googleplay.png'
 import earpod from '../../public/images/earpod.png'
@@ -113,7 +113,9 @@ export default function Home() {
            </div>
            
          </div>
-         <div className="swipe-img"><Image src={phone2} alt="me" width="250" height="450" /></div>
+         <div className="swipe-img">
+         
+           <Image src={phonevideo} alt="me" width="250" height="450" /></div>
          
         </div>
 

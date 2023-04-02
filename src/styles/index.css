@@ -119,11 +119,11 @@
   @apply text-black w-4/5;
 }
 .midsec3 {
-  @apply h-[100vh] flex flex-row;
+  @apply h-[100vh] flex flex-row justify-center;
   background: #e0e0e0;
 }
 .midsec3 .swipe-text {
-  @apply w-6/12 ml-20 mt-20;
+  @apply w-6/12  mt-20;
 }
 .midsec3 .swipe-text h2 {
   @apply not-italic font-black text-[40px] leading-[77px] text-[#05a3a3];
@@ -137,7 +137,7 @@
   font-family: "Lato";
 }
 .midsec3 .swipe-img {
-  @apply w-6/12  flex justify-center items-center mt-8;
+  @apply rounded-[8px] h-[84.2%] border-4 border-solid border-black  flex justify-center items-center mt-8;
 }
 .midsec4 {
   @apply h-[95vh] flex flex-col items-center;

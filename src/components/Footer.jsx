@@ -10,6 +10,7 @@ import Logo from '../../public/images/Logo.png'
 
 
 export default function Footer(){
+  const options = ["Lanugage", "English", "Spanish", "French"];
     return(
 
         <div className="footer">
@@ -19,14 +20,14 @@ export default function Footer(){
           <h3>Swap Space</h3>
           <div className="footer-img2"><Image src={wappstore} alt="me" width="160" height="55" /></div> 
           <div className="footer-img3"><Image src={wgoogleplay} alt="me" width="160" height="55" /></div>
-          <div className="pick-lang"><p>Language <div><Image src={dropdown} alt="me" width="10" height="5" /></div>
-          <div class="sub-menu2">
-                         <ul>
-                             <li>English</li>
-                             <li>Turkish</li>
-                             <li>Arabic</li>
-                         </ul>
-                     </div></p></div>
+          <div className="">
+              <select className="border border-solid border-white  text-[black] mt-20 rounded text-sm h-10 w-55px">
+                {options.map((ele) => {
+                  return <option>{ele}</option>;
+                })}
+              </select>
+            </div>
+          
           </div>
           <div className="footer-2">
             <div className="footer-2h">
