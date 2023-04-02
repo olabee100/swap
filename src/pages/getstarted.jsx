@@ -51,12 +51,12 @@ const getstarted = () => {
               </div>
             </div>
           </div>
-          <div className="lg:mt-0 mt-8 flex lg:w-4/12 w-11/12 justify-end items-end">
+          <div className="lg:mt-0 mt-8  flex lg:w-4/12 w-11/12 justify-end items-end">
             <Image
               src="/images/swipephone.png"
               alt="image"
-              width={400}
-              height={400}
+              width={900}
+              height={900}
             />
           </div>
         </div>
