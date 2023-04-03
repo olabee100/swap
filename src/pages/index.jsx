@@ -75,16 +75,27 @@ export default function Home() {
           <div className="home-img">
             <div className="home-container">
               <div className="house-img">
-                <Image src={home} alt="me" width="450" height="391" />
+                <Image src={home} alt="me" width="450" height="391"
+                className="border rounded"
+                />
               </div>
               <div className="house-img">
-                <Image src={bungalow} alt="me" width="450" height="391" />
+                <Image src={bungalow} alt="me" width="450" height="391" 
+                                className="border rounded"
+
+                />
               </div>
               <div className="house-img">
-                <Image src={twostorey} alt="me" width="450" height="391" />
+                <Image src={twostorey} alt="me" width="450" height="391" 
+                                className="border rounded"
+
+                />
               </div>
               <div className="house-img">
-                <Image src={mansion} alt="me" width="450" height="391" />
+                <Image src={mansion} alt="me" width="450" height="391" 
+                                className="border rounded"
+
+                />
               </div>
             </div>
           </div>
