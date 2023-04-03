@@ -1,0 +1,22 @@
+* {
+  @apply box-border m-0 p-0;
+}
+.top-section {
+  @apply h-[60vh] w-full flex justify-center items-center;
+  background: linear-gradient(152.62deg, #6b94a9 13.62%, #cfd0d0 82.94%),
+    radial-gradient(50% 232.13% at 50% 50%, #cfd0d0 0%, #000000 100%);
+}
+
+.top-text {
+  @apply text-[40px] font-black leading-[48px] tracking-[-0.0025em] text-left;
+}
+.mid-sect {
+  @apply bg-[white] h-[210vh] flex;
+}
+.text-cont {
+  @apply h-[200vh] w-[70%] ml-16 mt-8;
+}
+.text-all {
+  @apply text-base font-normal leading-7 tracking-[-0.0025em] text-left;
+  /* or 125% */
+}

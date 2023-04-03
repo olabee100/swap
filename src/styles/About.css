@@ -1,0 +1,91 @@
+* {
+  @apply box-border m-0 p-0;
+}
+.about-top {
+  @apply h-[60vh] bg-[100%_100%] bg-no-repeat bg-[center_center] flex justify-center items-center;
+  background: url(../../public/images/abouttopimg.png);
+}
+.about-top h1 {
+  @apply font-black text-[40px] text-white;
+}
+.about-sec1 {
+  @apply h-[70vh];
+}
+.sec1-body {
+  @apply flex justify-center items-center h-full;
+}
+.sec1-img {
+  @apply w-6/12 h-full flex justify-center items-center;
+}
+.sec1-text {
+  @apply w-6/12 h-full;
+}
+.text-cont {
+  @apply w-4/5 h-full flex justify-center text-justify flex-col leading-8;
+}
+.sec1-text h2 {
+  @apply font-black text-[32px] text-[#a30547] mb-8;
+}
+.about-sec2 {
+  @apply h-[50vh] flex justify-center items-center;
+  background: #263238;
+}
+.sec2-body {
+  @apply flex w-[70%] justify-center items-center flex-col h-full;
+}
+.sec2-body h2 {
+  @apply font-black text-[32px] text-white mb-8;
+}
+.span-about {
+  @apply text-[#05a3a3];
+  background: #ffffff;
+}
+.sec2-body p {
+  @apply font-normal text-xl text-white text-center leading-6;
+}
+.about-sec3 {
+  @apply h-[110vh];
+}
+.sec3-body {
+  @apply h-full flex justify-center items-center;
+}
+.sec3-body1 {
+  @apply w-6/12 h-full flex justify-center items-center leading-[3rem] flex-col;
+}
+.sec3-body1 p {
+  @apply w-[65%] text-justify font-normal text-xl;
+}
+.sec3-body1 h2 {
+  @apply text-[#a30547] font-black text-[32px];
+}
+.sec3-body2 {
+  @apply w-6/12 h-full flex justify-center items-center leading-[3rem] flex-col;
+}
+.sec3-body2 p {
+  @apply w-4/5 text-justify font-normal text-xl;
+}
+.sec3-body2 h2 {
+  @apply text-[#a30547] font-black text-[32px];
+}
+.about-sec4 {
+  @apply h-[200vh] flex flex-col justify-center items-center;
+  background: #263238;
+}
+.about-sec4 .h21 {
+  @apply h-[20vh] w-full font-black text-[32px] text-white tracking-[-0.0025em] flex justify-center items-center;
+}
+.sec4-body {
+  @apply h-[130vh] w-full flex flex-wrap;
+}
+.about-sec4 .p1 {
+  @apply h-[50vh] w-full text-center font-normal text-3xl tracking-[-0.0025em] text-white flex justify-center items-center pt-20;
+}
+.sec4-part {
+  @apply w-6/12 flex justify-center items-center flex-col;
+}
+.sec4-part h3 {
+  @apply font-bold text-3xl text-white tracking-[-0.25px] mb-8;
+}
+.sec4-part p {
+  @apply font-normal text-xl leading-8 w-[70%] text-white tracking-[-0.25px];
+}

@@ -1,0 +1,15 @@
+.navbar {
+  @apply flex flex-row items-start gap-2.5 absolute w-full h-[69px] justify-between pl-[73px] pr-[39px] py-2.5 left-0 top-[25px];
+  background: #e0e0e0;
+}
+.swap-logo {
+  @apply flex-none order-none grow-0;
+}
+.menu {
+  @apply flex w-[23%] text-black justify-between not-italic font-semibold text-xl pt-[0.6rem];
+  font-family: "Lato";
+}
+.download-btn {
+  @apply flex flex-row justify-center items-center gap-2.5 text-white flex-none order-2 grow-0 px-[30px] py-3 rounded-[15px];
+  background: #05a3a3;
+}

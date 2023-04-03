@@ -1,0 +1,16 @@
+* {
+  @apply box-border m-0 p-0;
+}
+.faq-top {
+  @apply h-[60vh] bg-[100%_100%] bg-no-repeat bg-[center_center];
+  background: url(../../public/images/faqimg.png);
+}
+.faq-mid {
+  @apply h-[205vh] flex justify-center items-center;
+}
+.faq-text {
+  @apply h-[185vh] leading-[4rem] w-4/5;
+}
+.faq-read {
+  @apply font-normal text-[25px] flex justify-between;
+}
