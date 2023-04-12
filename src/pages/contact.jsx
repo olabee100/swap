@@ -3,8 +3,8 @@ import Image from "next/image";
 import { FeaturedProperties } from "../constants/Featuredproperties";
 import { PopularSearch } from "../constants/PopularSearch";
 import { PropertyByEmirates } from "../constants/PropertyByEmirates";
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const contact = () => {
   const [profile, setProfle] = useState({
@@ -104,14 +104,20 @@ const contact = () => {
             </form>
           </div>
           {/* <div className=" h-5/6  bg-[url('/images/Rectangle74.png')] w-6/12 rounded-r-md opacity-90">....</div> */}
-          <Image className="lg:w-6/12 w-full rounded lg:rounded-r-md h-5/6" src={'/images/Rectangle74.png'} width={500} height={500} />
+          <Image
+            className="lg:w-6/12 w-full rounded lg:rounded-r-md h-5/6"
+            src={"/images/Rectangle74.png"}
+            width={500}
+            height={500}
+          />
         </div>
       </div>
-      
-     <Footer />
+
+      <Footer />
     </div>
   );
 };
+export default contact;
 
 // export default contact;
 // import React, { useState } from "react";
