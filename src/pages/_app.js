@@ -5,7 +5,11 @@ import '@/styles/About.css'
 import '@/styles/Terms.css'
 import '@/styles/FAQ.css'
 import '@/styles/index.css'
+import '@/styles/globals.css'
+import '@/styles/PrivacyPolicy.css'
+
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
+

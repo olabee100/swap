@@ -2,7 +2,7 @@
   @apply box-border m-0 p-0;
 }
 .top-section {
-  @apply h-[60vh] w-full flex justify-center items-center;
+  @apply h-[25vh] w-full flex justify-center items-center;
   background: linear-gradient(152.62deg, #6b94a9 13.62%, #cfd0d0 82.94%),
     radial-gradient(50% 232.13% at 50% 50%, #cfd0d0 0%, #000000 100%);
 }

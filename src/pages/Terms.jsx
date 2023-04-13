@@ -1,3 +1,4 @@
+
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
@@ -46,5 +47,3 @@ By using Swap Space, you accept and agree to be bound by the terms of these Term
          </div>
      )
 }
-
-

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-sectionp {
+  height: 60vh;
+  background: linear-gradient(152.62deg, #6b94a9 13.62%, #cfd0d0 82.94%),
+    radial-gradient(50% 232.13% at 50% 50%, #cfd0d0 0%, #000000 100%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-sectp {
+  background-color: white;
+  height: 245vh;
+  display: flex;
+}
+
+.text-contp {
+  height: 230vh;
+  width: 70%;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.text-allp {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2rem;
+  text-align: justify;
+  /* or 125% */
+
+  letter-spacing: -0.0025em;
+
+  color: #000000;
+}

@@ -6,11 +6,20 @@
   background: url(../../public/images/faqimg.png);
 }
 .faq-mid {
-  @apply h-[205vh] flex justify-center items-center;
+  @apply h-[300vh] flex justify-center items-center;
 }
 .faq-text {
-  @apply h-[185vh] leading-[4rem] w-4/5;
+  @apply h-[280vh] leading-[4rem] w-4/5;
 }
+
 .faq-read {
-  @apply font-normal text-[25px] flex justify-between;
+  @apply font-normal text-[25px];
+}
+
+li {
+  background: linear-gradient(152.62deg, #6b94a9 13.62%, #cfd0d0 82.94%),
+    radial-gradient(50% 232.13% at 50% 50%, #cfd0d0 0%, #000000 100%);
+}
+hr {
+  border: 0.5px solid black;
 }

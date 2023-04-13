@@ -1,5 +1,5 @@
 .footer {
-  @apply h-[90vh];
+  @apply h-[100vh] justify-center items-center;
   background: linear-gradient(
       105.73deg,
       rgba(170, 184, 194, 0.215) 10.23%,
@@ -13,10 +13,10 @@
     #424a52;
 }
 .footer-cont {
-  @apply w-full h-[85%] flex;
+  @apply w-full h-[80%] flex;
 }
 .footer-1 {
-  @apply flex flex-col justify-center items-center h-full w-[26%] mt-8;
+  @apply flex flex-col justify-center items-center h-[80%] w-[26%] mt-8;
 }
 .footer-1 .footer-img {
   @apply mb-[0.8rem];
@@ -31,17 +31,73 @@
   @apply mb-16;
 }
 .footer-2 {
-  @apply w-[49%] h-full flex flex-col justify-center items-center text-white;
+  @apply w-[49%] h-[80%] flex flex-col justify-center items-center text-white;
 }
 .footer-2h {
   @apply w-4/5 h-4/5 flex justify-between leading-[4rem] text-center;
 }
 .footer-3 {
-  @apply w-3/12 h-full;
+  @apply w-3/12 h-[80%];
+}
+
+.lang {
+  @apply h-[8%] w-[25%] flex justify-center items-center;
 }
 .socials {
   @apply flex justify-between w-2/5 float-right mr-12 mt-16;
 }
 .copyright {
-  @apply w-full h-[15%] flex justify-center items-center text-white;
+  @apply w-full h-[10%] flex justify-center items-center text-white;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    @apply h-[120vh] flex flex-col justify-center items-center;
+  }
+  .footer-cont {
+    @apply h-[100%]  flex-col justify-center items-center;
+  }
+
+  .footer-1 {
+    @apply w-[100%] mt-[0] h-[40vh];
+  }
+
+  .footer-1 h3 {
+    @apply mb-12;
+  }
+
+  .img-tot {
+    @apply w-[100%] flex justify-around;
+  }
+
+  .footer-1 .footer-img2 {
+    @apply mb-0 w-[40%];
+  }
+  .footer-1 .footer-img3 {
+    @apply mb-0 w-[40%];
+  }
+
+  .footer-2 {
+    @apply w-[100%] h-[43vh];
+  }
+
+  .footer-2h {
+    @apply w-[88%] h-[100%]  leading-[4rem];
+  }
+
+  .footer-3 {
+    @apply w-[100%] flex justify-center h-[15vh];
+  }
+
+  .socials {
+    @apply flex justify-between items-center w-2/5 float-none  mt-0;
+  }
+
+  .lang {
+    @apply pl-[0rem] flex justify-center items-center  w-[100%]   h-[14vh];
+  }
+
+  .copyright {
+    @apply h-[10vh] text-center;
+  }
 }

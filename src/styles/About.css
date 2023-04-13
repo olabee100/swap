@@ -18,7 +18,7 @@
   @apply w-6/12 h-full flex justify-center items-center;
 }
 .sec1-text {
-  @apply w-6/12 h-full;
+  @apply w-6/12;
 }
 .text-cont {
   @apply w-4/5 h-full flex justify-center text-justify flex-col leading-8;
