@@ -26,7 +26,7 @@ export default function Home() {
       <div className="Frontpage-main">
         <div className="top-section">
           <Navbar />
-          <div className="body-top">
+          <div className="body-top ">
             <div className="top-text">
               <h1>
                 The Easiest way to find <br /> your perfect{" "}
@@ -75,26 +75,39 @@ export default function Home() {
           <div className="home-img">
             <div className="home-container">
               <div className="house-img">
-                <Image src={home} alt="me" width="450" height="391"
-                className="border rounded"
+                <Image
+                  src={home}
+                  alt="me"
+                  width="450"
+                  height="391"
+                  className="border rounded"
                 />
               </div>
               <div className="house-img">
-                <Image src={bungalow} alt="me" width="450" height="391" 
-                                className="border rounded"
-
+                <Image
+                  src={bungalow}
+                  alt="me"
+                  width="450"
+                  height="391"
+                  className="border rounded"
                 />
               </div>
               <div className="house-img">
-                <Image src={twostorey} alt="me" width="450" height="391" 
-                                className="border rounded"
-
+                <Image
+                  src={twostorey}
+                  alt="me"
+                  width="450"
+                  height="391"
+                  className="border rounded"
                 />
               </div>
               <div className="house-img">
-                <Image src={mansion} alt="me" width="450" height="391" 
-                                className="border rounded"
-
+                <Image
+                  src={mansion}
+                  alt="me"
+                  width="450"
+                  height="391"
+                  className="border rounded"
                 />
               </div>
             </div>

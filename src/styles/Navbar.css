@@ -10,6 +10,6 @@
   font-family: "Lato";
 }
 .download-btn {
-  @apply flex flex-row justify-center items-center gap-2.5 text-white flex-none order-2 grow-0 px-[30px] py-3 rounded-[15px];
+  @apply flex -mt-6 flex-row justify-center items-center gap-2.5 text-white flex-none order-2 grow-0 px-[30px] py-3 rounded-[15px];
   background: #05a3a3;
 }

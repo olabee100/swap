@@ -7,12 +7,12 @@
     radial-gradient(50% 232.13% at 50% 50%, #cfd0d0 0%, #000000 100%);
 }
 .body-top {
-  @apply flex justify-center items-center pt-[20vh] w-[100%];
+  @apply lg:flex lg:flex-row justify-center items-center pt-[20vh] w-[100%] flex flex-col;
   margin-bottom: 40px;
 }
 .top-text {
   @apply w-[55%] ml-16;
-  margin-bottom : 40px;
+  margin-bottom: 40px;
 }
 .top-text h1 {
   @apply not-italic font-black text-[40px] leading-[48px] tracking-[-0.0025em] text-black;
@@ -54,15 +54,15 @@
   @apply text-[#05a3a3];
 }
 .midsec1 {
-  @apply flex  h-[80vh];
-  
+  @apply flex lg:flex-row flex-col w-screen  h-[80vh];
+
   background: #e0e0e0;
 }
 .home-img {
   @apply w-6/12 h-full;
 }
 .home-container {
-  @apply relative overflow-hidden flex w-full h-full justify-center items-center;
+  @apply overflow-hidden flex w-full h-full justify-center items-center;
 }
 .house-img {
   @apply absolute opacity-100 animate-[imageAnimation_2s_infinite_0s];
@@ -109,13 +109,13 @@
   font-family: "Lato";
 }
 .offer-cont {
-  @apply flex flex-row justify-around w-full h-[70vh] mt-12;
+  @apply flex lg:flex-row flex-col justify-around  w-full h-[70vh] mt-12;
 }
 .span-spec {
   @apply bg-white text-[#05a3a3] pr-[0.2px];
 }
 .offer {
-  @apply w-3/12 flex justify-center items-center flex-col h-[70vh] text-center rounded-[15px];
+  @apply lg:w-3/12 w-9/12  flex justify-center items-center flex-col h-[70vh] text-center rounded-[15px];
   background: #ffffff;
 }
 .offer h3 {
