@@ -444,7 +444,7 @@
   }
 
   .midsec6 {
-    @apply flex-col pb-9;
+    @apply flex-col pb-9 h-[110vh];
   }
 
   .midsec6 h2 {

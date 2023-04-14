@@ -24,8 +24,9 @@ export default function Home() {
   return (
     <>
       <div className="Frontpage-main">
-        <div className="top-section">
-          <Navbar />
+      
+        <div className="top-section" >
+        <Navbar />
           <div className="body-top">
             <div className="top-text">
               <h1>
